@@ -1,10 +1,18 @@
 # NestJS Crash Course: Everything you need to know!
 
-## Description
+## Sumary
+- [Description](#description)
+- [Topics](#topics)
+- [Dependecies](#dependecies)
+- [Installation](#installation)
+- [Running the app](#running-the-app)
+- [Test](#test)
+
+## <a name="description"></a> Description
 - Repository for notes and putting into practice what was taught in the course
 - Video course: [NestJS Crash Course: Everything you need to know!](https://youtu.be/2n3xS89TJMI)
 
-## Topics
+## <a name="topics"></a> Topics
 - Starting a new project
 - 3 Layer architecture
 - Configuring endpoints
@@ -19,18 +27,18 @@
 - Validation intro
 - Using the CLI to generate CRUD
 
-## Dependecies
+## <a name="dependecies"></a> Dependecies
 - [Nest](https://github.com/nestjs/nest) - framework TypeScript
 - [Node.js](https://nodejs.org/en) - is an open-source, cross-platform JavaScript runtime environment
 - [Class-validator](https://www.npmjs.com/package/class-validator) - Allows use of decorator and non-decorator based validation
 
-## Installation
+## <a name="installation"></a> Installation
 
 ```bash
 $ npm install
 ```
 
-## Running the app
+## <a name="running-the-app"></a> Running the app
 
 ```bash
 # development
@@ -43,7 +51,7 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Test
+## <a name="test"></a> Test
 
 ```bash
 # unit tests
